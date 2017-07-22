@@ -1,0 +1,50 @@
+@charset "utf-8";
+html { min-width: 1280px; }
+*{margin:0;padding:0;list-style:none;border:0;}
+/* body */
+body {margin:0; padding:0}
+{width:100%; margin:0 auto; overflow:hidden}
+.main_image {width:100%; height:470px; border-top:1px solid #d7d7d7; overflow:hidden; margin:0 auto; position:relative}
+.main_image ul {width:9999px; height:470px; overflow:hidden; position:absolute; top:0; left:0}
+.main_image li {float:left; width:100%; height:470px;}
+.main_image li span {display:block; width:100%; height:470px}
+.main_image li a {display:block; width:100%; height:470px; }
+.main_image li a.img {background-position:center top; background-repeat:no-repeat;}
+#btn_prev,#btn_next{z-index:11111;position:absolute;display:block;width:64px!important;height:127px!important;top:50%;margin-top:-37px;display:none;}
+#btn_prev{background:url(../images/index/left.png) no-repeat left top;left:20%;}
+#btn_next{background:url(../images/index/right.png) no-repeat right top;right:20%;}
+
+
+.bannerBox{ height:470px; width:100%; position:relative;}
+
+
+.newsBody{line-height:43px;color:#fff; position:absolute; bottom:-1px; left:0; background:url(../images/index/bannerLastBg.png) left top repeat-x; height:43px; width:100%; z-index:999;}
+.newsBody .scrollBody{margin-left:10px;width:850px;height:43px;line-height:43px;position:relative;
+	overflow:hidden;}
+.newsBody .scrollBody ul{position:absolute;top:0;left:0;height:43px;width:9999em;}
+.newsBody .scrollBody ul li{float:left;width:840px;margin-right:10px;}
+.newsBody .scrollBody ul li a{color:#fff; font-size:12px; font-family:microsoft yahei; display:inline-block; text-decoration:none;}
+.newsBody .scrollBody ul li a:hover{text-decoration:underline;}
+.newsBody .scrollBody ul li a em{ display:inline-block; color:#999999; margin-left:20px; line-height:12px; font-family:microsoft yahei;}
+.newsBody .btnBody a{color:#333;font-family:simsun;font-weight:700;margin-left:5px;font-size:18px; color:#fff;}
+.newsBody .btnBody a:hover{text-decoration:none;color:#999;}
+.bannerkvBody{}
+.bannerkvBody ul{ position:absolute; right:213px; bottom:206px; z-index:999;}
+.bannerkvBody ul li{ float:left; margin:0 0 0 12px;}
+.bannerkvBody ul li a{ width:16px; height:30px; background:url(../images/index/indexDian.png) left 6px no-repeat; display:block;}
+.bannerkvBody ul li a:hover,.bannerkvBody ul li a.cur{ width:26px; height:26px; background:url(../images/index/indexDianH.png) left top no-repeat;}
+.newsBody strong{ padding:0 10px; border-right:1px solid #adadad; font-size:18px; font-family:microsoft yahei; color:#fff; font-weight:400;}
+
+
+
+.carousel{ position:relative;width:489px; margin:0 auto;}
+.jCarouselLite{ width:497px; overflow:hidden; height:192px; }
+.jCarouselLite ul li{ float:left; margin:0 3px 0 0; padding-left:1px; width:220px;}
+.jCarouselLite a.AimgList{ display:block; width:220px; height:192px;}
+.jCarouselLite a.Aword{ color:#00799c; font-size:14px; margin-top:15px; font-family:microsoft yahei; display:block; text-decoration:none;}
+.jCarouselLite a.Aword span{ background:url(../images/index/indexRight.png) left 6px no-repeat; color:#333333; font-family:microsoft yahei; font-size:12px; padding-left:10px; display:block; margin:10px 0 5px;}
+.carousel .prev , .carousel .next{display:block; position:absolute;top:-33px; width:16px; height:16px;}
+.carousel a.prev{ background:url(../images/index/proR.png) left top no-repeat;  right:262px;}
+.carousel a.next{background:url(../images/index/proL.png) left top no-repeat;  left:182px; }
+
+
