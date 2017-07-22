@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+.indexMiddle{ padding:29px 0;}
+.indexMiddle div.indexMiddleBg{ background:url(../images/index/indexMiddle.png) left top no-repeat; width:1019px; height:97px; position:relative;}
+.indexMiddle div.indexMiddleBg a{ width:325px; height:92px; display:block; position:absolute; top:0;}
+.indexMiddle div.indexMiddleBg a.indexqq{ left:5px;}
+.indexMiddle div.indexMiddleBg a.indexcn{ left:330px;}
+.indexMiddle div.indexMiddleBg a.indexnews{ left:660px;}
+
+
+.indexLast{ padding-bottom:63px; background:#ebebeb;}
+.indexLastL{ width:486px; border-top:1px solid #00799c;}
+.indexLastR{ width:474px; border-top:1px solid #00799c; margin-left:25px;}
+h4.indexLH4{ color:#00799c; font-size:20px; font-family:MICROSOFT YAHEI; font-weight:bold; line-height:53px;}
+.indexLastR p.indexLp{ color:#00799c; line-height:20PX; font-size:14PX; font-family:MICROSOFT YAHEI;}
+
+.indexLastR a{ background:url(../images/index/indexRight.png) left 6px no-repeat; color:#333333; font-family:microsoft yahei; font-size:12px; padding-left:10px; display:block; margin:5px 0 5px;}

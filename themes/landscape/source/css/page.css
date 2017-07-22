@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*product*/
+.productList{ margin-bottom:70px;}
+.productList ul{ border-bottom:2px solid #cccccc; padding-top:7px;}
+.productList ul li{ border-bottom:1px dashed #cccccc; padding:25px 0 40px; width:353px; height:121px; float:left;}
+.productList ul li a.productL{ width:158px; margin-right:10px; display:inline-block;}
+.productList ul li div.productR{ width:184px;}
+.productR p{height:50px; color:#333; font-size:14px; font-family:microsoft yahei;}
+.productR a{ background:url(../images/products/productMore.png) left top no-repeat; width:99px; height:35px; display:block;}
+
+.proDetailR{ }
+.proDetailRR{ width:346px;}
+.proDetailRR strong{ color: #00799c;}
+.productImg{ margin:0 20px 0px 0;}
+.productDetail{ padding:35px 0 100px;}
+.proDetailR h5{ color:#333; font-size:18px; font-family:microsoft yahei; line-height:30px; width:100%; padding-bottom:10px;}
+.proDetailR p.productLine{ border-bottom:1px solid #cccccc; margin-bottom:10px;}
+.proDetailR p.detailBig{color:#333; font-size:16px; font-family:microsoft yahei; line-height:30px; margin-bottom:45px;}
+.proDetailR h6{ color:#333; font-size:18px; font-family:microsoft yahei; line-height:30px; padding-bottom:10px;}
+.proDetailR p{color:#333; font-size:14px; font-family:microsoft yahei; line-height:30px; margin-bottom:20px; line-height:20px;}
+
+.solutionPd{ padding-bottom:50px;}
+.solutionPd h2{ font-size:24px; font-family:microsoft yahei; color:#333; line-height:25px; padding-bottom:10px;}
+.solutionPd h4{ font-size:24px; font-family:microsoft yahei; color:#00799c; line-height:30px; margin-bottom:10px; padding-top:10px; text-align:center;}
+.solutionPd h5{ font-size:18px; font-family:microsoft yahei; color:#fff;}
+.solutionPd p{ font-size:14px; font-family:microsoft yahei; color:#333; line-height:25px; margin-bottom:10px;}
+.solutionWidth{ width:707px; height:307px; position:relative;} 
+.solutionWidth h5{ position:absolute; left:28px; bottom:30px; background:#000; padding:0 10px; }
+/*about*/
+.brandPd{ padding-bottom:35px; border-bottom:1px solid #e2e2e2; color:#333; font-size:14px; font-family:microsoft yahei; margin-bottom:20px;}
+.brandList{ background-position:right top; background-repeat:no-repeat; height:388px; width:100%; margin-bottom:90px;}
+.brandWidth{ width:380px;}
+.brandWidth p.brandBlue{ color:#037a9d; font-size:18px; font-family:microsoft yahei; line-height:25px; margin-bottom:20px;}
+.brandWidth p.brandgray{ color:#333; font-size:14px; font-family:microsoft yahei; line-height:25px; margin-bottom:18px;}
+.brandgray span{  padding-left:15px;color:#333; font-size:14px; font-family:microsoft yahei; display:inline-block; margin-right:18px;}
+.brandWidth p.gray18{color:#333; font-size:18px; font-family:microsoft yahei; line-height:20px;}
+
+.aboutList p{ color:#333;font-size:14px; font-family:microsoft yahei; line-height:20px; margin-bottom:20px;}
+.aboutList p span{  display:block; padding-left:20px;color:#333;font-size:14px; font-family:microsoft yahei; line-height:20px; }
+.historyBg{ background:url(../images/about/historyImg2.jpg) left top no-repeat; padding-left:330px; height:200px; margin-bottom:157px; min-height:284px;}
+
+.cnList{ margin-bottom:100px;}
+.cnList p{color:#333;font-size:14px; font-family:microsoft yahei; line-height:20px; margin-bottom:20px;}
+.cnList p em{ color:#0aa8d7;}
+.cnList p img{ margin-top:30px;}
+
+
+.cnList p.areasL{ width:200px; margin-bottom:0;}
+.cnList p.areasR{ width:480px; margin-left:13PX;color:#333;font-size:14px; font-family:microsoft yahei; line-height:20px; margin-bottom:0;}
+.cnList p.areasL img{ margin-top:0;}
+.cnList ul li{ padding:20px 0 15px;}
+.cnList ul li h5{ color:#037a9d; font-size:18px; font-family:microsoft yahei; line-height:20px; margin-bottom:10px;}
+
+P.postP{color:#333;font-size:14px; font-family:microsoft yahei; line-height:20px; margin-bottom:20PX;}
+.postBg{ background:url(../images/post/postBg.jpg) right top no-repeat; width:100%; height:167px; margin-bottom:100px;}
+.postWord{ width:624px; background:#f3f3f3; height:157px; padding:10px 0 0 5px;}
+.post14{color:#666666;font-size:14px; font-family:microsoft yahei; line-height:20px; margin-bottom:5px; margin-left:5px;}
+.postBg em{ color:#006699;}
+.post18{color:#666666;font-size:18px; font-family:microsoft yahei; line-height:20px; margin-left:5px;}
+.postWord img{ margin-top:10px;}
+/*contact*/
+.contactL{ width:315px;}
+.contactL p{ color:#333; line-height:24px; font-size:14px; font-family:microsoft yahei;}
+.contactL p a{ color:#037a9d;line-height:24px; font-size:14px; font-family:microsoft yahei; display:inline-block; text-decoration:underline;}
+.contactR{ width:607px;}
+.contactPd{ padding-top:25px;}
+ p.contactFont18{ font-size:14px;color:#333; line-height:20px; font-family:microsoft yahei; line-height:30px; }
+ p.contactTitle{ color:#fff; font-size:14px;font-family:microsoft yahei; font-weight:bold; background:url(../images/contact/contactAddres.png) left top no-repeat; width:245px; height:54px;
+					text-align:center; line-height:68px; margin-bottom:40px;}
+.contactR ul{ width:538px; margin:10px auto 0; background:#fafafa; border-top:1px dashed #dbdbdb;}	
+.contactR ul li{ border-bottom:1px dashed #dbdbdb; padding:18px 0 15px 8px;}	
+.contactR ul li table th span{color:#525252; font-size:14px; font-family:microsoft yahei; margin-left:10px; display:inline-block;}
+.contactR ul li table th{ color:#525252; height:20px; line-height:20px; font-size:14px; font-family:microsoft yahei; width:109px;}		
+.contactR ul li table td{color:#525252; height:20px; line-height:20px; font-size:14px; font-family:microsoft yahei;width:424px;}	
+.contactR ul li table td em{color:#525252; height:20px; line-height:20px; font-size:14px; font-family:microsoft yahei; margin-right:13px;}	
+.contactR h4{  color:#333; line-height:20px; font-size:14px; margin-top:40px; margin-left:34px;}
+
+
+/*download*/
+.downWidth{ width:472px;}
+.mr53{ margin-right:53px;}
+.downWidth h4{ margin-bottom:20px; color:#333333; font-size:18px; font-family:microsoft yahei;}
+.downWidth ul{ padding-bottom:18px; background:#f3f3f3;}
+.downWidth ul li{ border-bottom:1px dashed #cccccc; padding:10PX 0;}
+.downWidth ul li a{ display:block; padding:0 23px; color:#333; font-family:microsoft yahei; font-size:14px; text-decoration:none; background:url(../images/download/down.png) right top no-repeat; height:32PX; line-height:32PX; margin-right:23px;}
+.downWidth ul li a:hover,.downWidth ul li a.cur{ background:url(../images/download/downH.png) right top no-repeat;}
+
+
+/*news*/
+.newsPd{ margin-right:100px;}
+.newsPd li{ padding:25px 0; border-bottom:1px dashed #cccccc;}
+.newsPd li a span.newsWord{ color:#333333; font-size:14px; font-family:microsoft yahei; line-height:24px; width:800px; display:inline-block; text-decoration:none;}
+.newsPd li a span.newsTime{ color:#006699; font-size:12px; font-family:microsoft yahei;text-decoration:none;}
+.newsL{ width:228px; height:132px; position:relative;}
+.newsL span{ width:228px; height:132px; position:absolute; top:0; left:0; display:block; background:url(../images/news/newsListBg.png) left top no-repeat; z-index:10;}
+.newsL img{ position:absolute; top:0; left:0; z-index:8;}
+.newsR{ width:593px; margin-left:19px;  }
+.newsR .newsTitle a.TitleH4{ color:#333333; font-size:14px; font-family:microsoft yahei; width:530px; display:inline-block; text-decoration:none;}
+.newsR .newsTitle a.times{ color:#006699; font-size:12px; font-family:microsoft yahei; display:inline-block; text-decoration:none; margin-top:0;}
+.newsR a{ color:#666666; font-size:12px; font-family:microsoft yahei; line-height:20px; margin-top:15px; display:block; text-decoration:none;}
+
+.newsDetailPd{ margin-top:30px;}
+.newsDetailPd h4{ text-align:center; font-size:18px; font-family:microsoft yahei; color:#333333; line-height:24px;}
+.newsDetailPd span{ text-align:left; display:block;}
+.newsDetailPd span.newsSpan{ color:#006699; font-family:microsoft yahei; font-size:12px; text-align:center; display:block; padding:20px 0 40px;}
+.newsDetailPd p{ color:#666666; font-size:14px; line-height:24px; margin-bottom:15px;}
+.newsDetailPd p.pcn{ font-family:microsoft yahei;}
+.newsDetailPd p.pen{ font-family:Arial;}
+.newsDetailPd p.pen em{ font-family:microsoft yahei; display:block;}
+.pageNews{ margin-bottom:100px;}
+.pageNews a{ color:#333333; font-size:14px; font-family:microsoft yahei; display:inline-block; text-decoration:none;}
+.pageNews a.pre{ background:url(../images/news/newsDleft.png) left 5px no-repeat; padding-left:10px; margin-right:20px;}
+.pageNews a.next{ background:url(../images/news/newsDright.png) right 5px no-repeat; padding-right:10px;}
+.pageNews a:hover,.pageNews a.cur{ color:#00799c; text-decoration:underline;}
+.top{ position:fixed; right:196px; bottom:315px; z-index:100;}
