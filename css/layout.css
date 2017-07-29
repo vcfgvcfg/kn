@@ -57,7 +57,6 @@ footer{ background:#00799c; width:100%; padding:30px 0 30px;}
 .sidebarL ul li a.sidebarUlA{ height:53px; width:171px; background:#f0f1f8;  display:block; text-decoration:none; line-height:53px; padding-left:30px; border-bottom:1px solid #dbdcde;}
 .sidebarL ul li a.sidebarUlA span{  width:146px; display:inline-block;color:#333; font-size:16px; font-family:microsoft yahei;}
 .sidebarL ul li a.sidebarUlA:hover,.sidebarL ul li a.sidebarUlA.cur{ background:#dfe0ec;}
-.sidebarL ul li a.sidebarUlA:hover span,.sidebarL ul li a.sidebarUlA.cur span{background:url(../images/products/productRight.png) right 21px no-repeat; }
 .sidebarL ul li dl{ background:#fafafa; padding:13px 0 13px 37px; }
 .sidebarL ul li dl dd a{ height:30px; line-height:30px; font-size:14px; font-family:microsoft yahei; color:#333; text-decoration:none; display:block;}
 .sidebarL ul li dl dd a:hover,.sidebarL ul li dl dd a.cur{ color:#006699;}
