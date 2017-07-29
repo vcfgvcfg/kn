@@ -5,23 +5,17 @@
     <div class="cw">
         <div class="navDiv">
             <ul class="clearfix">
-				<li><a href="<%- url_for('/') %>">官网首页<span>Home Page</span></a></li>
+				<li><a href="<%- url_for('/') %>">官网首页<span>Home</span></a></li>
                 <li>
                     <a href="<%- url_for('/about/index.html') %>">企业介绍<span>Introduction</span></a>
                     <ul>
-                        <li><a href="<%- url_for('/about/vision.html') %>">企业文化</a>
-                            <dl>
-                                <dd><a href="<%- url_for('/about/vision.html') %>">愿景</a></dd>
-                                <dd><a href="<%- url_for('/about/mission.html') %>">使命</a></dd>
-                                <dd><a href="<%- url_for('/about/value.html') %>">价值观</a></dd>
-                                <dd><a href="<%- url_for('/about/brand.html') %>">品牌</a></dd>
-                            </dl>
-                        </li>
+                        <li><a href="<%- url_for('/about/vision.html') %>">企业文化</a></li>
                         <li><a href="<%- url_for('/about/areas.html') %>">应用领域</a></li>
                     </ul>
                 </li>
+                <li><a href="<%- url_for('products/solution.html') %>">解决方案<span>Solution</span></a></li>
                 <li>
-                    <a href="<%- url_for('products/') %>">产品&amp;方案 <span>Product &amp; Solution</span></a>
+                    <a href="<%- url_for('products/') %>">产品介绍 <span>Product</span></a>
                     <ul>
                         <li><a href="<%- url_for('products/') %>">凯尼真空泵</a>
                             <dl>
@@ -41,10 +35,6 @@
                                 <% } %>
                                 <% }); %>
                             </dl>
-                        </li>
-
-                        <li>
-                            <a href="<%- url_for('products/solution.html') %>">解决方案</a>
                         </li>
                     </ul>
                 </li>

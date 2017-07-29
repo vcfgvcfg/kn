@@ -1,6 +1,6 @@
 <% var background = 'images/about/banner1.jpg'%>
 <section>
-    <div class="bannerList" style="background-image:url(<%- url_for(background) %>"></div>
+    <div class="bannerList" style="background-image:url(<%- url_for(background) %>)"></div>
         <div class="cw">
             <div class="mainPd">
                     <div class="clearfix">
@@ -16,15 +16,14 @@
                                 });
                              });
                              </script>
-                            <p class="sidebarLtitle">凯尼真空简介 <span></span></p>
+                            <p class="sidebarLtitle">凯尼真空介绍 <span></span></p>
                             <ul>
-                                <li><a href="<%- url_for('/about/index.html') %>" class="sidebarUlA"><span>凯尼真空简介</span></a></li>
+                                <li><a href="<%- url_for('/about/index.html') %>" class="sidebarUlA"><span>企业介绍</span></a></li>
                                 <li><a href="<%- url_for('/about/vision.html') %>" class="sidebarUlA"><span>企业文化</span></a>
                                        <dl>
                                             <dd><a href="<%- url_for('/about/vision.html') %>">愿景</a></dd>
                                             <dd><a href="<%- url_for('/about/mission.html') %>">使命</a></dd>
                                             <dd><a href="<%- url_for('/about/value.html') %>">价值观</a></dd>
-                                            <dd><a href="<%- url_for('/about/brand.html') %>">品牌</a></dd>
                                        </dl>
                                 </li>
                             <li><a href="<%- url_for('/about/areas.html') %>" class="sidebarUlA"><span>应用领域</span></a></li>
@@ -32,81 +31,64 @@
                         </div>
                         <div class="sidebarR fr">
                             <% if (page.tags === 'about') {%>
-                            <h3 style="border-bottom:none;">凯尼真空介绍</h3>
+                            <h3 style="border-bottom:none;">企业介绍</h3>
                             <div class="cnList">
-                                <p>凯尼始于1908年，总部威固乐位于美国，德克萨斯州,伯休斯顿市，一直专注于真空方向的研究，服务于化工，医药，食品&饮料，农业，电力&能源等市场应用，一代又一代的凯尼人为“真空创造美好生活”（vacuum for a beautiful life）而努力。</p>
+                                <p>
+凯尼始于1908年，总部威固乐位于美国，德克萨斯州伯休斯顿市，一直专注于真空方向的研究，凯尼真空产品及系统是全球真空市场的顶尖产品。
+上百年以来，凯尼真空产品及系统一直长期服务于化工，医药，食品&饮料，农业，电力&能源等市场应用，处理过易燃、易爆、剧毒、聚合及更复杂工况的气体，人们吃的食品、穿的衣服、住的房子、开的车子、用的产品都有凯尼真空的存在，作为行业的隐形设备供应商，一代又一代的凯尼人为了“真空创造更美好生活”（vacuum for a beautiful life）的信念而努力。
+
+                                </p>
+                                <p>
+我们引以为傲的产品包括：零泄漏、精准温度控制、专利结构防冷凝、螺杆内冷却的干式螺杆真空泵，一直引领世界真空的零泄漏的、高排气温度、高压差的、高性能的罗茨真空泵，比单级更高的抽速、更好的真空度、防气蚀、高品质的双级液环真空泵， 适用于恶劣工况的、采用三缸平衡设计的(不需地脚螺栓固定)、超静音的、立式安装的滑阀真空泵,单级及双级的旋片式真空泵,干式螺杆真空系统、罗茨螺杆真空系统、液环真空系统、液环罗茨真空系统、滑阀罗茨系统及旋片罗茨系统等。
+                                </p>
                                 <p style="font-family: microsoft yahei;font-style:italic;margin-top:90px;line-height:1.4;font-size:20px;background: #0181b0; color: white; padding: 20px 50px; text-align: center;">
-									Vacuum For A Beautifl Life<br>
+									Vacuum For A Beautiful Life<br>
 									真空创造美好生活
 								</p>
                             </div>
                             <% } %>
 
                             <% if (page.tags === 'about-vision') {%>
-                            <h3 style="border-bottom:none;">始于美好生活的追求</h3>
-                            <p class="brandPd">我们的愿景为驱使我们做出强有力的选择，帮助我们建立一个伟大的公司，发成为健康成长的家庭，产生震撼世界的影响。</p>
+                            <h3 style="border-bottom:none;">成为真空解决方案领域的世界领导企业!</h3>
                             <div class="brandList" style="background-image:url(<%- url_for('images/about/visionImg.jpg') %>);">
                                 <div class="brandWidth">
-                                <p class="brandBlue">打造明智企业</p>
                                 <p class="brandgray">
-                                <strong>一个由优秀员工驱动的卓越团体！</strong><br>
-                                在员工持续改进的过程中，我们将共同：<br>
-                                <span>创建一个卓越的企业，</span><br>
-                                <span>建立健康的家庭，</span><br>
-                                <span>对我们周围的一切产生巨大影响。</span></p>
-                                <p class="brandBlue">我们决不降低要求！</p>
+                                作为一个由优秀员工驱动的卓越团体，在用真空创造美好生活的使命指引下，我们将在持续改进的过程中共同：<br>
+                                <span>创建一家卓越的公司</span><br>
+                                <span>建立健康成长的家庭</span><br>
+                                <span>对周围产生巨大影响</span></p>
                                 </div>
                             </div>
                             <% } %>
 
                             <% if (page.tags === 'about-mission') {%>
-                            <h3 style="border-bottom:none;">我们专注于生产制造。</h3>
-                            <p class="brandPd">我们聆听客户真实的需求，高效，创新，有始有终地将客户需求落到实处。</p>
-                            <div class="brandList" style="background-image:url(<%- url_for('/images/about/missionImg.jpg')%>)">
+                            <h3 style="border-bottom:none;">用真空创造美好生活!</h3>
+                            <div class="brandList" style="background-image:url(<%- url_for('images/about/missionImg.jpg')%>)">
                                 <div class="brandWidth">
-                                <p class="brandBlue">按正确的方式做事——脚踏实地、日益提高！</p>
                                 <p class="brandgray">
-                                <span>服务全球任何角落最具价值观念的客户</span><br>
-                                <span>高效、创新、有始有终使我们与众不同</span><br>
-                                <span>将卓越渗透进凯尼真空的根基中</span></p>
-                                <p class="brandBlue">说到做到，赢得客户！</p>
+                                凯尼真空所服务的市场是维持人们生活的基础市场。我们选择这些市场主要有两个原因：长期稳定的增长以及对我们的生活贡献巨大。我们的产品在可靠，持久，耐用的基础上，持续创新满足客户应用领域持续变革的苛刻需求。</p>
                             </div>
                             </div>
                             <% } %>
 
                             <% if (page.tags === 'about-value') {%>
                             <h3 style="border-bottom:none;">
-								诚信，尊重，卓越，勇气，责任和意识
+								诚信敬业，持续创新，团队协作，价值共赢
                             </h3>
-                            <p class="brandPd">选择凯尼真空，你会清晰地感受到我们崇尚的价值观: 诚信，尊重，卓越，勇气，责任和意识。</p>
                             <div class="brandList" style="background-image:url(<%- url_for('images/about/valueImg.jpg') %>);">
                                 <div class="brandWidth">
-                                <p class="brandBlue">作为一个多元化经营的企业，<br>
-                                凯尼真空人信奉如下价值观:</p>
                                 <p class="brandgray">
-                                    <span>诚信</span><span>尊重</span><br>
-                                    <span>卓越</span><span>勇气</span><br>
-                                    <span>责任</span><span>意识</span><br></p>
-                                <p class="brandBlue">竭尽所能做到最好！</p>
-                                </div>
-                            </div>
-                            <% } %>
-
-                            <% if (page.tags === 'about-brand') {%>
-                            <h3 style="border-bottom:none;">十九世纪初，凯尼真空开始拥有卓越的声誉。</h3>
-                            <p class="brandPd">日积跬步，我们在从优秀到卓越的旅程中始终不忘初心。</p>
-                            <div class="brandList" style="background-image:url(<%- url_for('images/about/brandImg1.jpg') %>);">
-                                <div class="brandWidth">
-                                <p class="brandBlue">凯尼真空品牌承诺说到做到。<br>
-                                为我们的客户，<br>
-                                为我们的家庭，<br>
-                                为我们自己。</p>
+                                我们崇尚的价值观是实现我们使命和愿景的基石：
+                                </p>
                                 <p class="brandgray">
-                                <strong>我们的目标成为一个伟大的公司</strong><br>
-                                    <span>需要将我们的产品投放到别人去不了的领域</span><br>
-                                    <span>鼓励人们选择凯尼真空，与之共存，对之爱护</span><br>
-                                    <span>培育足以维系一生的友谊</span></p>
-                                <p class="brandBlue">追求卓越，关注生活。</p>
+                                <strong>诚信敬业：</strong>我们坚持信守承诺，有始有终的将客户的需求落到实处，我们坚持专业的执着追求，精益求精的将每一件小事做好、做精、做专。
+                                </p>
+                                <p class="brandgray">
+                                <strong>持续创新：</strong>我们坚持关注客户业务所面临的挑战，聆听客户的真实需求，通过制造过程的持续改善，技术研发的不断改进与突破，服务过程的持续优化，为我们的客户提供高品质的产品和服务，提供创新的解决方案，帮助我们的客户持续改善业务，赢得市场。
+                                团队协作：我们坚持通过团队协作取得成功，我们尊重每一个成员，鼓励他们不断成长，成就卓越，我们相互协作共同成长，成就非凡事业。</p>
+                                <p class="brandgray">
+                                <strong>价值共赢：</strong>我们坚持服务全球任何角落最具价值追求观念的客户，我们将在为客户创造价值的过程中，实现员工的个人价值，为周围的世界创造价值，成就客户、公司、个人、社会的多方共赢。
+                                </p>
                                 </div>
                             </div>
                             <% } %>
@@ -169,7 +151,7 @@
                                         <h5>航空航天</h5>
                                         <div class="clearfix">
                                             <p class="areasL fl"><img src="<%- url_for('images/about/areasImg9.jpg') %>" width="200" height="125"></p>
-                                            <p class="areasR fl">大的空间模拟装置是用于模拟不同的海拔高度和太空的工况以及试验飞行器和人身在减压状态下的影响。太空模拟装置要求大容量的高真空泵，但是为了预抽真空，其前级真空泵仍然是不可缺少的。Tuthill-kinney的大容量KMBD罗茨真空泵和TVSP螺杆真空泵是最理想的选择，这类真空泵既清洁无油又不存在油雾和废液的排放问题。</p>
+                                            <p class="areasR fl">大的空间模拟装置是用于模拟不同的海拔高度和太空的工况以及试验飞行器和人身在减压状态下的影响。太空模拟装置要求大容量的高真空泵，但是为了预抽真空，其前级真空泵仍然是不可缺少的。凯尼大容量KMBD罗茨真空泵和TVSP螺杆真空泵是最理想的选择，这类真空泵既清洁无油又不存在油雾和废液的排放问题。</p>
                                         </div>
                                     </li>
                                 </ul>

@@ -3,15 +3,21 @@
         <div class="mainPd">
             <div class="clearfix">
                 <div class="sidebarL fl">
-                    <p class="sidebarLtitle">产品&amp;方案 <span></span></p>
+
+                    <p class="sidebarLtitle">
+                        <span><%- page.tags === '解决方案' ? '解决方案' : '产品介绍' %></span>
+                    </p>
                     <ul>
+                        <% if (page.tags === '解决方案') { %>
+                        <li><a href="<%- url_for('products/solution.html') %>" class="sidebarUlA <%- page.tags === '解决方案' ? 'cur' : '' %>"><span>解决方案</span></a></li>
+                        <% } else { %>
                         <li>
                             <a href="<%- url_for('products/') %>" class="sidebarUlA <%- (page.tags === '凯尼真空泵' ? 'cur' : '') %>">
                                 <span>凯尼真空泵</span>
                             </a>
                         </li>
                         <li><a href="<%- url_for('products/blowers.html') %>" class="sidebarUlA <%- page.tags === '罗茨风机' ? 'cur' : '' %>"><span>罗茨风机</span></a></li>
-                        <li><a href="<%- url_for('products/solution.html') %>" class="sidebarUlA <%- page.tags === '解决方案' ? 'cur' : '' %>"><span>解决方案</span></a></li>
+                        <% } %>
                     </ul>
                 </div>
                 
@@ -79,7 +85,7 @@
                             <% site.pages.forEach(function(p) { %>
                                 <% if (p.tags === page.tags && !p.isList) {%>
                                     <li>
-                                        <div class="clearfix">
+                                        
                                             <a href="<%- url_for(p.path) %>" class="productL fl">
                                                 <img src="detail/<%- p.title %>.jpg" width="158">
                                             </a>
@@ -87,7 +93,7 @@
                                                 <p><%- p.title.replace('-', '<br>-') %></p>
                                                 <a href="<%- url_for(p.path) %>"></a>
                                             </div>
-                                        </div>
+                                        
                                     </li>
                                 <% } %>
                             <% }); %>
